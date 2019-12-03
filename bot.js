@@ -5,7 +5,7 @@ const { Client } = require("@botbind/klasa");
 
 // Load all the addons in the folder
 fs.readdirSync(path.join(__dirname, "addons")).forEach(addon => {
-  require("./addons/" + addon);
+  Client.use(require("./addons/" + addon));
 });
 
 // Start the bot client
