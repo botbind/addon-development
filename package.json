@@ -4,7 +4,7 @@
   "description": "Boilerplate for Bot Bind Addon development",
   "main": "bot.js",
   "dependencies": {
-    "@botbind/klasa": "^0.5.4-dev",
-    "discord.js": "github:discordjs/discord.js#master"
+    "@botbind/klasa": "^0.5.7-dev",
+    "discord.js": "github:botbind/discord.js#master"
   }
 }
