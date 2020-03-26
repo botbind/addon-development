@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "Boilerplate for Bot Bind Addon development",
   "main": "bot.js",
+  "scripts": {
+    "start": "node .",
+    "prettier": "./node_modules/.bin/prettier --write ."
+  },
   "dependencies": {
     "@botbind/klasa": "^0.5.7-dev",
-    "discord.js": "github:botbind/discord.js#master"
+    "discord.js": "github:botbind/discord.js#master",
+    "prettier": "2.0.2"
   }
 }
