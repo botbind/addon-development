@@ -11,5 +11,5 @@ fs.readdirSync(path.join(__dirname, "addons")).forEach(addon => {
 // Start the bot client
 new Client({
   prefix: "?",
-  createPiecesFolders: false,
+  createPiecesFolders: false
 }).login("PASTE_YOUR_TOKEN_HERE");
