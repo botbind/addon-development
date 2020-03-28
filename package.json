@@ -5,11 +5,13 @@
   "main": "bot.js",
   "scripts": {
     "start": "node .",
-    "prettier": "./node_modules/.bin/prettier --write ."
+    "prettier": "prettier --write . && echo \"Successfully formatted the codebase\""
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2"
   },
   "dependencies": {
     "@botbind/klasa": "^0.5.7-dev",
-    "discord.js": "github:botbind/discord.js#master",
-    "prettier": "2.0.2"
+    "discord.js": "github:botbind/discord.js#master"
   }
 }
