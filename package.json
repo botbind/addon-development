@@ -11,7 +11,7 @@
     "prettier": "^2.0.2"
   },
   "dependencies": {
-    "@botbind/klasa": "^0.5.7-dev",
+    "@botbind/klasa": "^0.5.8-dev",
     "discord.js": "github:botbind/discord.js#master"
   }
 }
